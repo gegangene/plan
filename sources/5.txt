@@ -1,0 +1,7 @@
+﻿
+1Matematyka;37.0\
+1Angielski;14.1\
+1WF;B.0\
+1Polski;32.0\
+1Rosyjski;14.1\
+1Fizyka;23.1\

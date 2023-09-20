@@ -1,0 +1,83 @@
+body
+{
+    background-color: black;
+    color:white;
+}
+a:link, a:visited
+{
+    color: #6dcc89;
+}
+a:hover
+{
+    color: #6dcc89cc;
+}
+table, td, tr, th
+{
+    border: 1px solid grey;
+}
+.nieaktyw
+{
+    color:darkgrey;
+}
+
+th
+{
+    color: black;
+    background-color: white;
+}
+
+.button
+{
+    background-color: #6dcc89;
+}
+
+.button>a
+{
+    color:white;
+    text-decoration: none;
+}
+
+.przedmiot
+{
+    border-right:1px dashed #6dcc89;
+}
+
+.trujca
+{
+    background-color: #666666;
+    color:black;
+}
+
+.colourlyReversedText
+{
+    color: black;
+    background-color: #ffffff;
+}
+
+.bckgrnd
+{
+    background-color: #6dcc89;
+}
+
+.wyroznienie1
+{
+    color: #6dcc89 !important;
+    font-size:21.37px;
+}
+
+.wyroznienie2
+{
+    
+    color: #6dcc89 !important;;
+}
+
+.wyroznienie1a
+{
+    color: #91ffabbb !important;
+    font-size:21.37px;
+}
+
+.pd
+{
+    color: #91ffab !important;
+}

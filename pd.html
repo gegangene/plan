@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title>moduł modyfikacji prac domowych wersja wczesna alpha</title>
+        <meta charset="UTF-8">
+        <link href="light.css?0-0-5-a" type="text/css" rel="stylesheet">
+        <link href="style.css?0-0-5-a" type="text/css" rel="stylesheet">
+        <link href="ggngnn.css?0-0-5-a" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <h3><a href="index.php">powrót do planu</a></h3>
+        <form action="submit.php" method="post" class="padd05p">
+            <select name="lekcja" value="przedmiot" required>
+                <option value="1Fizyka">Fizyka</option>
+                <option value="2Matematyka">Matematyka</option>
+                <option value="3Informatyka">Informatyka</option>
+                <option value="4Polski">Polski</option>
+                <option value="5Angielski">Angielski</option>
+                <option value="6Rosyjski">Rosyjski</option>
+                <option value="7Religia">Religia</option>
+                <option value="8HiSp">HiSp</option>
+                <option value="9WF">WF</option>
+            </select><br/><br/>
+            <input required type="radio" id="usun2" name="czyUsun" value="2" onclick="zalaczarka()">
+            <label for="usun2">Edycja pracy domowej</label><br/><br/>
+            <input required type="radio" id="usun1" name="czyUsun" value="1" onclick="zalaczarka()">
+            <label for="usun1">Usuwanie pracy domowej</label><br/><br/>
+            <input required type="radio" id="usun0" name="czyUsun" value="0" onclick="zalaczarka()">
+            <label for="usun0">Dodawanie/zamiana pracy domowej</label>&nbsp;&nbsp;&nbsp;
+            <input disabled id="tresc" type="text" name="tresc" style="min-width: 30%;"><br/><br/>
+            <input type="password" name="pass" required><br/><br/>
+            <input type="submit">
+        </form>
+        <footer class="padd1p">
+            moduł modyfikacji pracy domowej v. 0.0.5
+            <br/>Co nowego: edycja pracy domowej; włączanie inputu do dodawania pd tylko gdy to potrzebne
+        </footer>
+        <script src="disable.js"></script>
+    </body>
+</html>

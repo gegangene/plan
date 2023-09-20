@@ -1,0 +1,99 @@
+body
+{
+    background-image: url("../informatyka/2021-22/PATRIOTIC.PNG");
+    color:black;
+}
+a:link, a:visited
+{
+    color: deeppink;
+}
+a:hover
+{
+    color: salmon;
+}
+table, td, tr, th
+{
+    border: 1px solid grey;
+}
+.nieaktyw, .wyzejKurna
+{
+    color:green;
+}
+
+table
+{
+    background-color:aquamarine;
+    color:brown;
+}
+
+th
+{
+    color: black;
+    background-color: yellow;
+}
+
+.button
+{
+    background-color: yellow;
+}
+
+.button>a
+{
+    color:black;
+    text-decoration: none;
+}
+
+.przedmiot
+{
+    border-right:1px dashed yellow;
+}
+
+.trujca
+{
+    background-color: aquamarine;
+    color:brown;
+    border: dashed 2px red;
+    margin:0 1.8% 0 1.8%;
+}
+
+.trujca>h3
+{
+    color:yellow;
+    background-color: hotpink;
+}
+
+.wyzejKurna>div>div
+{
+    color:darkorange;
+}
+
+
+.colourlyReversedText
+{
+    color: yellow;
+    background-color: green;
+}
+
+
+.bckgrnd
+{
+    background-color: yellow;
+}
+
+.wyroznienie1
+{
+    color: sandybrown !important;
+    font-size:21.37px;
+}
+
+.wyroznienie2
+{
+    
+    color: green !important;;
+}
+
+.wyroznienie1a
+{
+    color: #ffc0cb !important;
+    font-size:21.37px;
+}

@@ -1,0 +1,24 @@
+.onlyMobile
+{
+    display:block;
+}
+.onlyDesktop
+{
+    display:none;
+}
+
+
+.mobileBlock
+{
+    display: block;
+}
+
+.mainDivMobile
+{
+    width: 80%;
+}
+
+.trujca
+{
+    margin-left: 7.75% !important;;
+}

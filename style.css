@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+a:link, a:visited
+{
+    color: #df4a4a;
+}
+a:hover
+{
+    color: #df4a4acc;
+}
+.nieaktyw
+{
+    color: grey;
+}
+
+.button
+{
+    background-color: #df4a4a;
+}
+
+a>.button
+{
+    color:white;
+    text-decoration: none;
+}
+
+.przedmiot
+{
+    border-right:1px dashed #df4a4a;
+}
+
+
+.bckgrnd
+{
+    background-color: #df4a4a;
+}
+
+.wyroznienie1
+{
+    color: #df4a4a !important;
+    font-size:21.37px;
+}
+
+.wyroznienie2
+{
+    
+    color: #df4a4a !important;;
+}
+
+.wyroznienie1a
+{
+    color: #df4a4a99 !important;
+    font-size:21.37px;
+}
+
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+table, td, tr, th
+{
+    border-collapse: collapse;
+    /*padding: 0.5%;*/
+}
+table
+{
+    width:90%;
+    margin-right: auto;
+    margin-left:auto;
+}
+th
+{
+    width:16.666%;
+}
+h1
+{
+    text-align:center;
+}
+h3
+{
+    font-size:25px;
+}
+sup
+{
+    font-size: 10px;
+}
+nav
+{
+    margin:2% 0 2% 0;
+}
+
+.button
+{
+    padding: 2%;
+    width:50%;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.trujca
+{
+    margin: 0 2% 0 2%;
+    width: 25.3%;
+    padding: 1% 2% 1% 2%;
+    font-variant-caps: small-caps;
+}
+
+main
+{
+    width:100%;
+    margin-top:4%;
+}
+
+.zbiorprzedm
+{
+    width:80%;
+}
+
+.trujca>div>div, .trujca>div>div>div
+{
+    margin-bottom:1%;
+    margin-top:1%;
+}
+
+.wyzejKurna
+{
+    font-size:medium;
+    margin-left:1%;
+    width: 17%;
+}
+
+.wyzejKurna>div
+{    
+    min-width:100%;
+}
+
+.wyzejKurna>div>div
+{    
+    margin: 8% 0 8% 0;
+}
+
+.przedmiot
+{
+    width: 100%;
+}
+
+nav>a>img
+{
+    width: 35px;
+}
+
+.innagrupa
+{
+    color:grey !important;
+}

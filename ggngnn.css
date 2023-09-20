@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.cntr
+{
+    text-align:center;
+    min-width: max-content;
+}
+
+.block
+{
+    display: block;
+}
+
+.inline
+{
+    display:inline-block;
+}
+
+.floatL
+{
+    float: left;
+}
+
+.s50
+{
+    width:49%;
+}
+
+.s25
+{
+    width:24%;
+}
+
+.rightText
+{
+    text-align: right;
+}
+
+.rightDiv
+{
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.centerText
+{
+    text-align: center;
+}
+
+.centerDiv
+{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.leftText
+{
+    text-align: left;
+}
+
+.leftDiv
+{
+    margin-left:0;
+    margin-right:auto;
+}
+
+.boldText
+{
+    font-weight: bold;
+}
+
+.whiteText
+{
+    color: white;
+}
+
+.blackText
+{
+    color:black;
+}
+
+.whiteDiv
+{
+    background-color:white;
+}
+
+.testDiv
+{
+    height:20%;
+    background-color: grey;
+}
+
+.cleaner
+{
+    clear: both;
+}
+
+.padd05p
+{
+    padding:0.5%;
+}
+
+.padd1p
+{
+    padding:1%;
+}
+
+.max-content
+{
+    width:max-content;
+}
+
+.znikniete
+{
+    display:none;
+}
+
+.smallText
+{
+    font-size: 10px;
+}
+
+.LargeText
+{
+    font-size: large;
+}
+
+.xLargeText
+{
+    font-size: x-large;
+}
+
+.noDecoration
+{
+    text-decoration: none;
+}

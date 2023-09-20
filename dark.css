@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+    color:white;
+}
+table, td, tr, th
+{
+    border: 1px solid grey;
+}
+th
+{
+    color: black;
+    background-color: white;
+}
+
+.trujca
+{
+    background-color: #ffffffdf;
+    color:black;
+}
+
+.colourlyReversedText
+{
+    color: black;
+    background-color: #ffffff;
+}
+/*.pd
+{
+    color: #91ffab !important;
+}*/
